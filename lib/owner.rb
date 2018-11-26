@@ -10,7 +10,7 @@ class Owner
     @name = name
     @pets = {fishes: [], cats: [], dogs: []}
     @@owners << self
-    
+
   end
 
   def self.all
@@ -22,7 +22,7 @@ class Owner
   end
 
   def self.reset_all
-
+    @@owners = []
   end
 
 
