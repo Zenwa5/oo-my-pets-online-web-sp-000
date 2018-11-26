@@ -32,7 +32,7 @@ class Owner
 
   def say_species
     @@owners.each do |x|
-    puts "I am a #{@species}."
+      puts "I am a #{@species}."
     end
   end
 
