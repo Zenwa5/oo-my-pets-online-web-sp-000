@@ -26,7 +26,8 @@ class Owner
   end
 
   def species
-
+    @species = "human"
+    @species
   end
 
 
