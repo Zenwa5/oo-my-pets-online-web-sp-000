@@ -4,7 +4,7 @@ class Owner
 
 
   @@owners = []
-  @@ownercount = -1
+  @@ownercount = 0
 
   def initialize(name)
     @name = name
