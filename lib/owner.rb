@@ -18,7 +18,9 @@ class Owner
   end
 
   def self.count
-    @@ownercount
+    o = 0
+    @@owners.each do |x|
+      
   end
 
   def self.reset_all
