@@ -25,5 +25,9 @@ class Owner
     @@owners = []
   end
 
+  def self.species
+
+  end
+
 
 end
