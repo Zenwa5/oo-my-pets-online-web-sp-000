@@ -4,7 +4,7 @@ class Owner
 
 
   @@owners = []
-  @@ownercount = 0
+
 
   def initialize(name)
     @name = name
@@ -18,7 +18,7 @@ class Owner
   end
 
   def self.count
-      @@ownercount
+      @@owners.length
   end
 
   def self.reset_all
