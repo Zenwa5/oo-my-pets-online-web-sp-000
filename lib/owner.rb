@@ -1,7 +1,7 @@
 class Owner
 
-  attr_accessor :name
-  attr_reader :pets
+  attr_accessor :name, :pets
+  
 
   @@owners = []
   @@ownercount = 0
